@@ -1,0 +1,2 @@
+HUB_REPO=swistaczek/docker-postgres
+TAG=10-alpine
