@@ -7,4 +7,4 @@ RUN apk add --update openssl
 
 ADD docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
 
-CMD ["ssl=on"]
+CMD ["-c", "ssl=on"]
